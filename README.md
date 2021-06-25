@@ -1,14 +1,15 @@
-# goBarbar
+# goBarber
 
 # Descrição do Projeto
-<p align="center">About
+<p align="center">
 Aplicação em desenvolvimento do bootcamp GoStack
 </p>
 
 <h1 align="center">
   <img alt="logo" title="#logo" src="./github/git.png" />
 </h1>
-### Pré-requisitos
+
+# Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -38,7 +39,7 @@ cd goBarber/server
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ yarn dev
+$ yarn dev:server
 
 # O servidor do front-end inciará na porta:3000 - acesse <http://localhost:3000>
 # O servidor do back-end inciará na porta:3333 - acesse <http://localhost:3333>
