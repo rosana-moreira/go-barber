@@ -20,6 +20,14 @@
     "prettier"
   ],
   "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "prefix": ["I"],
+        "format": ["PascalCase"]
+      }
+    ],
     "prettier/prettier": "error",
     "no-useless-constructor": "off",
     "no-unused-vars": "off",
